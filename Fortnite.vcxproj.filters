@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="utilitys.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="scanner.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlyLoop.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{9e7a0bad-91fd-4b1a-ba0e-44a6ea34959d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{77217fd0-331a-435b-ac7f-18ecaca522c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{13b001d4-45cd-4ab7-b772-bba0c646cb91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="method.asm">
+      <Filter>main</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
